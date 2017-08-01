@@ -1,7 +1,7 @@
-# **A**nti-**B**oilerplate **C**lub
+# **A**nti-**B**oilerplate **C**ode
 
 
-ABC is a project that was devised in an attempt to reduce the ammount of boilerplate code that has to be written when creating applications written in C/C++. We aren't striving to provide the most efficient code or the code with the smallest memory footprint, but rather are attempting to give developers a jump off point so that they may more efficiently prototype ideas and concepts. 
+ABC is a project that was devised in an attempt to reduce the ammount of boilerplate code that has to be written when creating applications written in C/C++. We aren't striving to provide the most efficient code or the code with the smallest memory footprint, but rather are attempting to create flexible and easy to use modules that give developers a jump off point so that they may more efficiently prototype ideas and concepts. 
 
 There are a couple goals that we strive to meet with the code provided through this project:
  * All source is agnostic of the architecture for which it may be used on. You should have no issue using these modules in a project being developed for an 8-bit micro while also having no issues using these with a 64-bit multi-core desktop computer. 
@@ -39,7 +39,13 @@ There are a couple goals that we strive to meet with the code provided through t
   * Button input 
   * Encoder input
   * Potentiometer input
-  * LED control (RGB, 'smart' LED, single color, etc.)
+  * LED control (RGB, 'smart' LED, single color, multiplexed, etc.)
+* **System**
+  * Basic bootloader (FW update ability)
+  * Time
+* **Security**
+  * Checksum confirmation/generation
+  * Encryption algs
  
 ---
 
